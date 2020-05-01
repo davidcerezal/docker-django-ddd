@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp.apps.MyappConfig',
+    'odds.apps.MyappConfig',
     'rest_registration',
     'celery',
 ]
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mydjango.urls'
+ROOT_URLCONF = 'odds-app.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mydjango.wsgi.application'
+WSGI_APPLICATION = 'odds-app.wsgi.application'
 
 
 # Database

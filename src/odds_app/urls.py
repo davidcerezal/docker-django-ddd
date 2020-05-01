@@ -19,7 +19,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 
-from myapp.views import ShowHelloWorld
+from odds.views import ShowHelloWorld
 
 api_urlpatterns = [
     path('accounts/', include('rest_registration.api.urls')),
