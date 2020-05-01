@@ -27,7 +27,7 @@ Celery is an asynchronous task queue/job queue based on distributed message pass
 
 Full documentation for the project is available at http://www.celeryproject.org/.
 
-###5.- Docker
+### 5.- Docker
 If you already doesn't know what it's docker, that place it's not for you.
 Try with that: https://docs.docker.com/get-started/overview/
 
