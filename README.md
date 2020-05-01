@@ -1,9 +1,9 @@
-#Django - DDD with django-rest-framework, rest-registration, celery and prepared with Docker
+# Django - DDD with django-rest-framework, rest-registration, celery and prepared with Docker
 
-###1.- DDD skeleton
+### 1.- DDD skeleton
 Bootstrap your new projects or be inspired by DDD and hexagonal architecture. 
 
-###2.- Django Rest Framework
+### 2.- Django Rest Framework
 Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 Some reasons you might want to use REST framework:
@@ -17,12 +17,12 @@ Some reasons you might want to use REST framework:
 Full documentation for the project is available at https://www.django-rest-framework.org/.
 
 
-###3.- Django Rest Registration
+### 3.- Django Rest Registration
 User registration REST API, based on Django REST Framework.
 
 Full documentation for the project is available at https://django-rest-registration.readthedocs.io/.
 
-###4.- Celery
+### 4.- Celery
 Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.
 
 Full documentation for the project is available at http://www.celeryproject.org/.
