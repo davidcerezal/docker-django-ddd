@@ -23,6 +23,7 @@ from odds.views import ShowHelloWorld
 
 api_urlpatterns = [
     path('accounts/', include('rest_registration.api.urls')),
+    url(r'^api-auth/', include('rest_framework.urls'))
 ]
 
 urlpatterns = [

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'odds.apps.oddsConfig',
+    'rest_framework',
     'rest_registration',
     'celery',
 ]
@@ -71,6 +72,12 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'odds_app.wsgi.application'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 
 REST_REGISTRATION = {
     'REGISTER_VERIFICATION_ENABLED': False,
