@@ -1,11 +1,35 @@
-# Deploy Django using Nginx, Celery, Redis and Postgresql with Docker
+#Django - DDD with django-rest-framework, rest-registration, celery and prepared with Docker
 
-A boilerplate to deploy Django with cool stuff. Also serves as an example project from these tutorial:
-1. <a href="https://ruddra.com/docker-django-nginx-postgres/">Deploy Django, Gunicorn, NGINX, Postgresql using Docker</a>
-2. <a href="https://ruddra.com/serve-static-files-by-nginx-from-django-using-docker/">Serve Static Files by Nginx from Django using Docker</a>
-3. <a href="https://ruddra.com/docker-do-stuff-using-celery-using-redis-as-broker/">Docker: Use Celery in Django(Redis as Broker)</a>
+###1.- DDD skeleton
+Bootstrap your new projects or be inspired by DDD and hexagonal architecture. 
 
-Where it is described how this boilerplate was created from scratch so that you can build your own.
+###2.- Django Rest Framework
+Django REST framework is a powerful and flexible toolkit for building Web APIs.
+
+Some reasons you might want to use REST framework:
+- The Web browsable API is a huge usability win for your developers.
+- Authentication policies including packages for OAuth1a and OAuth2.
+- Serialization that supports both ORM and non-ORM data sources.
+- Customizable all the way down - just use regular function-based views if you don't need the more powerful features.
+- Extensive documentation, and great community support.
+- Used and trusted by internationally recognised companies including Mozilla, Red Hat, Heroku, and Eventbrite.
+
+Full documentation for the project is available at https://www.django-rest-framework.org/.
+
+
+###3.- Django Rest Registration
+User registration REST API, based on Django REST Framework.
+
+Full documentation for the project is available at https://django-rest-registration.readthedocs.io/.
+
+###4.- Celery
+Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.
+
+Full documentation for the project is available at http://www.celeryproject.org/.
+
+###5.- Docker
+If you already doesn't know what it's docker, that place it's not for you.
+Try with that: https://docs.docker.com/get-started/overview/
 
 ## Advantages
 1. Ready to use with your django project.

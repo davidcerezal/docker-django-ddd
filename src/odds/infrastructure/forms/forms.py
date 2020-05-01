@@ -1,10 +1,10 @@
 from django import forms
-from .models import ItemBatch
+from odds.models import DemoModel
 
 
 class SomeForm(forms.ModelForm):
     class Meta:
-        model = ItemBatch
+        model = DemoModel
         fields = '__all__'
 
     def save(self, commit=True):
