@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'odds-app.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'odds_app.settings')
 
 application = get_wsgi_application()

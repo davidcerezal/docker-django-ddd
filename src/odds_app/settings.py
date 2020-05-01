@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'odds.apps.MyappConfig',
+    'odds.apps.oddsConfig',
     'rest_registration',
     'celery',
 ]
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'odds-app.urls'
+ROOT_URLCONF = 'odds_app.urls'
 
 TEMPLATES = [
     {
@@ -70,8 +70,13 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'odds-app.wsgi.application'
+WSGI_APPLICATION = 'odds_app.wsgi.application'
 
+REST_REGISTRATION = {
+    'REGISTER_VERIFICATION_ENABLED': False,
+    'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
+    'RESET_PASSWORD_VERIFICATION_ENABLED': False,
+}
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases

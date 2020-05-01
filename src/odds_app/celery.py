@@ -4,9 +4,9 @@ from celery import Celery
 import logging
 logger = logging.getLogger("Celery")
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'odds-app.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'odds_app.settings')
 
-app = Celery('odds-app')
+app = Celery('odds_app')
 
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
